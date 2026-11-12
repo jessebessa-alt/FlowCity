@@ -30,3 +30,21 @@ Thumbs.db
 
 # docker/mysql local data
 mysql-data/
+
+
+# Python & Ambiente Virtual
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploads e Ficheiros Temporários do Backend
+uploads/
+backend/uploads/
+
+# Ficheiros de Dados e Base de Dados (Evita subir planilhas pesadas ou SQL gerado)
+*.xlsx
+*.csv
+banco_importacao.sql
+saida_motor.sql
